@@ -1,1 +1,1 @@
-console.log("Hello");
+(()=>{"use strict";window.addEventListener("load",(async()=>{const e=document.getElementById("header");var n;document.getElementById("content"),e.innerHTML=await'\n    <div class="Header-main">\n      <div class="Header-logo">\n        <h1><a>100tifi.co</a></h1>\n      </div>\n\n      <div class="Header-nav">\n        <a href="#/about">About</a>\n      </div>\n    </div>\n  ',console.log((n=location.hash.slice(1).toLocaleLowerCase().split("/")[1]||"/").length<=3?"/"===n?n:"/:id":`/${n}`)}))})();
